@@ -1,0 +1,99 @@
+/* navbar styling*/
+:root{
+    --primary-color-dark:#1746A2;
+    --primary-color-light:38B6FF;
+}
+body{
+    font-family: sora,sans-serif;
+    letter-spacing: 1px;
+    
+    
+}
+h3{
+    font-weight: normal;
+    font-size: 0.9em;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+}
+.nav_row--top{
+    margin-top:-3vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    padding-right:100px ;
+    
+}
+.nav_row--top_logo>img{
+    width: 280px;
+    height: 150px;
+    
+}
+.nav_row--top_user >button{
+    border-radius: 0px;
+    border:1px solid var(--primary-color-dark);
+    background-color: transparent;
+}
+   
+.nav_row--bottom{
+    background-color:var(--primary-color-dark);
+    color:white;
+    font-family: sora;
+    
+    margin-top:-3vh;
+}
+
+.nav_row--bottom_list{
+    display: flex;
+    justify-content: center;
+    list-style-type:none;
+    gap:100px;
+
+}
+
+.nav_row--bottom_list a{
+    text-decoration: none;
+    color:white;
+    font-size: 0.8em;
+}
+.nav_row--top_user button{
+    border:2px solid var(--primary-color-dark);
+    border-radius: 0px;
+    color:var(--primary-color-dark);
+    height: 40px;
+    width:130px;
+}
+.nav_row--top_user button:hover{
+    border:2px solid var(--primary-color-dark);
+    border-radius: 0px;
+    background-color: var(--primary-color-dark);
+    color:white;
+    height: 40px;
+    width:130px;
+}
+
+/*footer styler */
+
+.footer--patient{
+    padding-top: 20px;
+    background-color: var(--primary-color-dark);
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height:30%;
+
+}
+.footer--patient_slot h3:first-child{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.footer--patient_slot_icons img{
+    
+    width:45px;
+    height: 40px;
+   
+}
+
